@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Downloads latest Adobe Reader disk image, builds a package, and uploads to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.autopkg.jss.AdobeReaderExtractPackage</string>
+        <string>com.github.autopkg.jss.AdobeReader</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
@@ -34,6 +34,8 @@
                 <dict>
                     <key>prod_name</key>
                     <string>%NAME%</string>
+                    <key>version</key>
+                    <string>%version%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>policy_category</key>
